@@ -1,6 +1,6 @@
 const axios = require("axios");
 const fs = require("fs-extra");
-const ytdl = require("ytdl-core");
+const ytdl = require("@distube/ytdl-core");
 const yts = require("yt-search");
 const path = require("path");
 const ID3Writer = require('node-id3');
